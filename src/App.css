@@ -1,22 +1,57 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.wrapper {
+  display: flex !important;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90% !important;
+  font-family: "Open Sans";
 }
 
-.App-link {
-  color: #09d3ac;
+.headerGreen {
+  color: #4eb9c6;
+  line-height: 32px;
+  font-size: 1.77rem;
 }
+
+/* Testimonial Text */
+
+.testimonialText {
+  align-content: flex-start;
+  margin: auto;
+  width: 60%;
+}
+
+.testimonialImage {
+  height: 150px;
+  margin: auto;
+}
+
+.testimonialImageDiv {
+  flex-grow: 1;
+}
+
+.slick-prev {
+  left: 2% !important;
+  z-index: 2;
+  color: blue !important;
+}
+.slick-prev:before,
+.slick-next:before
+{
+    opacity: .75;
+    color: grey !important;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.slick-next {
+  right: 2% !important;
+  z-index: 1;
+  color: grey !important;
+}
+
+
